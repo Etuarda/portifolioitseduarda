@@ -17,6 +17,7 @@
             <ul>
                 <li><a href="#sobre">Sobre Mim</a></li>
                 <li><a href="#formacao">Formação</a></li>
+                <li><a href="#certificacoes">Certificações</a></li>
                 <li><a href="#projetos">Projetos</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
@@ -48,20 +49,65 @@
             </div>
         </section>
 
+        <section id="certificacoes">
+            <h2 class="certificacao-titulo">Certificações</h2>
+            <div class="certificacao-lista">
+                <h3>Back-End com Node.js e PostgreSQL</h3>
+                <a href="https://cubos.academy" target="_blank">Cubos Academy</a>
+                <p>Desenvolvimento de APIs RESTful com Express e banco de dados relacional.</p>
+
+                <h3>Front-End com React e TypeScript</h3>
+                <a href="https://cubos.academy" target="_blank">Cubos Academy</a>
+                <p>Construção de aplicações modernas com React, consumo de APIs e roteamento.</p>
+
+                <h3>Curso de Programação em Nuvem (em andamento)</h3>
+                <a href="https://www.campinhodigital.com.br" target="_blank">AWS re/Start - Campinho Digital</a>
+                <p>Fundamentos de computação em nuvem com AWS, redes, Linux e boas práticas DevOps.</p>
+            </div>
+        </section>
+
         <section id="projetos">
             <h2 class="experiencia-titulo">Projetos em Destaque</h2>
             <div class="experiencia-lista">
-                <h3>Planner de Estudos Gamificado</h3>
-                <a href="https://github.com/ettuarda/planner-gamificado" target="_blank">
-                    Repositório no GitHub
-                </a>
-                <p>Projeto fullstack voltado à organização de metas de estudo com sistema de recompensas.</p>
 
-                <h3>API para Consultório Médico</h3>
-                <a href="https://github.com/ettuarda/api-consultorio" target="_blank">
-                    Repositório no GitHub
-                </a>
-                <p>API RESTful com Node.js, Express e PostgreSQL.</p>
+                <h3> A Baleia Azul de Valença – Jogo RPG Narrativo</h3>
+                <p>Inspirado na lenda folclórica da minha cidade natal, este jogo foi desenvolvido durante a disciplina
+                    de Programação Orientada a Objetos na PUCRS como uma forma de aplicar, de maneira criativa, os
+                    conceitos técnicos de POO. A experiência propõe uma jornada textual onde o jogador explora
+                    diferentes ambientes históricos, interage com objetos simbólicos e resolve enigmas para impedir o
+                    despertar de uma criatura mítica.</p>
+                <p>A estrutura do código foi cuidadosamente pensada para representar classes como salas, objetos,
+                    ferramentas e uma engine que controla toda a narrativa. Cada elemento foi escrito de forma modular e
+                    extensível, permitindo que o jogo seja expandido com facilidade. Mais do que um projeto acadêmico,
+                    essa aplicação representa minha capacidade de unir lógica, identidade cultural e estrutura técnica
+                    em um único produto interativo.</p>
+                <p><a href="https://github.com/ettuarda/jogo-rpg-baleia-azul" target="_blank">Ver repositório no
+                        GitHub</a></p>
+
+                <h3> API RESTful – Sistema de PDV (Frente de Caixa)</h3>
+                <p>Criada como projeto final do curso Back-End da Cubos Academy, esta API simula o funcionamento
+                    essencial de um sistema de frente de caixa, utilizado no dia a dia por comércios de pequeno a médio
+                    porte. Ela oferece funcionalidades completas para o gerenciamento de usuários, produtos, categorias
+                    e pedidos, com foco na segurança das rotas e integridade dos dados.</p>
+                <p>Utilizando Node.js e PostgreSQL, a aplicação segue padrões RESTful, implementando autenticação com
+                    JWT, validação de entrada e respostas com status codes padronizados. Além da lógica técnica, este
+                    projeto me permitiu explorar práticas como organização em camadas, uso de scripts SQL para
+                    estruturação do banco de dados e construção de rotas robustas — tudo pensado para refletir um
+                    cenário real de desenvolvimento back-end.</p>
+                <p><a href="https://github.com/ettuarda/api-pdv-cubos" target="_blank">Ver repositório no GitHub</a></p>
+
+                <h3> Portfólio Pessoal – HTML e CSS</h3>
+                <p>Este portfólio foi desenvolvido como parte do curso do Minas Programam, mas se tornou também um
+                    reflexo da minha jornada e da minha personalidade como desenvolvedora. Criado inteiramente com HTML
+                    e CSS, foi pensado para apresentar minha trajetória, meus projetos e minhas habilidades com clareza,
+                    leveza e identidade.</p>
+                <p>Com um layout limpo e seções bem definidas, o site traduz meu perfil: atenção aos detalhes,
+                    estruturação lógica e uma comunicação visual discreta, mas segura. Cada componente do portfólio foi
+                    pensado não apenas para exibir, mas para comunicar quem sou, como aprendo e para onde estou indo.
+                    Publicado no GitHub Pages, ele representa meu primeiro passo visível na construção de uma presença
+                    profissional online.</p>
+                <p><a href="https://github.com/ettuarda/portfolio" target="_blank">Ver repositório no GitHub</a></p>
+
             </div>
         </section>
 
@@ -73,18 +119,15 @@
                         <label for="nome">Nome:</label>
                         <input type="text" id="nome" name="nome" placeholder="Digite seu nome" />
                     </div>
-
                     <div class="contato-input">
                         <label for="email">E-mail:</label>
                         <input type="email" id="email" name="email" placeholder="Digite o seu e-mail" />
                     </div>
                 </div>
-
                 <div class="contato-input">
                     <label for="mensagem">Mensagem:</label>
                     <textarea id="mensagem" name="mensagem" placeholder="Escreva a sua mensagem" rows="5"></textarea>
                 </div>
-
                 <button class="btn-enviar" type="submit">Enviar</button>
             </form>
         </section>
@@ -92,24 +135,15 @@
 
     <footer class="rodape">
         <div class="rodape-contatos">
-            <p>
-                <img src="imagens/instagram-logo.png" alt="Instagram" />
-                <a href="https://instagram.com/ettuarda">@ettuarda</a>
-            </p>
-            <p>
-                <img src="imagens/github-logo.png" alt="Github" />
-                <a href="https://github.com/ettuarda">ettuarda</a>
-            </p>
-            <p>
-                <img src="imagens/linkedin-logo.png" alt="Linkedin" />
-                <a href="https://linkedin.com/in/itseduarda">itseduarda</a>
-            </p>
+            <p><img src="imagens/instagram-logo.png" alt="Instagram" /> <a
+                    href="https://instagram.com/ettuarda">@ettuarda</a></p>
+            <p><img src="imagens/github-logo.png" alt="Github" /> <a href="https://github.com/ettuarda">ettuarda</a></p>
+            <p><img src="imagens/linkedin-logo.png" alt="Linkedin" /> <a
+                    href="https://linkedin.com/in/itseduarda">itseduarda</a></p>
         </div>
-
         <div class="rodape-logo">
-            <a href="https://cubos.academy">
-                <img class="logo-minas" src="imagens/logo-instituicao.png" alt="Logo da Cubos Academy" />
-            </a>
+            <a href="https://cubos.academy"><img class="logo-minas" src="imagens/logo-instituicao.png"
+                    alt="Logo da Cubos Academy" /></a>
         </div>
     </footer>
 </body>

@@ -1,4 +1,4 @@
-/* Reset e base */
+/* Base */
 * {
     margin: 0;
     padding: 0;
@@ -7,8 +7,8 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    background-color: #FDFCFB;
-    color: #333;
+    background-color: #F9F6F2;
+    color: #3E3E3E;
     line-height: 1.6;
 }
 
@@ -17,14 +17,14 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #D2C1F0;
+    background-color: #5D3A00;
     padding: 25px 40px;
 }
 
 .logo {
     font-size: 24px;
     font-weight: 700;
-    color: #4B4453;
+    color: #FFFFFF;
 }
 
 .navegacao ul {
@@ -34,20 +34,20 @@ body {
 }
 
 .navegacao ul li a {
-    color: #ffffff;
+    color: #FFFFFF;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 500;
     transition: opacity 0.3s;
 }
 
 .navegacao ul li a:hover {
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
-/* Sobre */
+/* Seção: Sobre */
 #sobre {
     text-align: center;
-    background-color: #F7F1F1;
+    background-color: #F4ECE9;
     padding: 60px 20px;
 }
 
@@ -60,13 +60,13 @@ body {
 }
 
 .sobre-nome {
-    color: #A87FF3;
+    color: #B56B76;
     font-size: 36px;
     margin-top: 20px;
 }
 
 .sobre-titulo {
-    color: #8685EF;
+    color: #C48A9E;
     font-size: 24px;
     margin-top: 10px;
 }
@@ -79,85 +79,44 @@ body {
     margin-right: auto;
 }
 
-/* Formação */
-#formacao {
+/* Seções gerais */
+section {
     padding: 50px 20px;
-    background-color: #FFF7E9;
 }
 
-.formacao-titulo {
-    color: #F2B5D4;
+.formacao-titulo,
+.certificacao-titulo,
+.experiencia-titulo,
+.contato-titulo {
+    color: #B56B76;
     font-size: 30px;
     text-align: center;
     margin-bottom: 30px;
 }
 
-.formacao-lista {
-    max-width: 700px;
-    margin: 0 auto;
-}
-
-.formacao-lista h3 {
-    color: #8E8E8E;
-    margin-bottom: 5px;
-}
-
-.formacao-lista a {
-    color: #C792DF;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.formacao-lista p {
-    margin-bottom: 20px;
-}
-
-/* Projetos */
-#projetos {
-    background-color: #F1FBFA;
-    padding: 50px 20px;
-}
-
-.experiencia-titulo {
-    color: #A3C8F7;
-    font-size: 30px;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
+.formacao-lista,
+.certificacao-lista,
 .experiencia-lista {
     max-width: 700px;
     margin: 0 auto;
 }
 
-.experiencia-lista h3 {
-    color: #888;
+h3 {
+    color: #5D3A00;
     margin-bottom: 5px;
 }
 
-.experiencia-lista a {
-    color: #7D93E0;
+a {
+    color: #C48A9E;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 600;
 }
 
-.experiencia-lista p {
+p {
     margin-bottom: 20px;
 }
 
 /* Contato */
-#contato {
-    padding: 50px 20px;
-    background-color: #FFF0F5;
-}
-
-.contato-titulo {
-    color: #C97FC5;
-    font-size: 30px;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
 .contato-formulario {
     max-width: 700px;
     margin: 0 auto;
@@ -186,18 +145,18 @@ body {
 .contato-input input,
 .contato-input textarea {
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #ccc;
     border-radius: 6px;
     font-size: 16px;
 }
 
 .btn-enviar {
-    background-color: #A87FF3;
+    background-color: #5D3A00;
     color: white;
     padding: 15px;
     font-size: 18px;
     border: none;
-    border-radius: 8px;
+    border-radius: 6px;
     cursor: pointer;
     font-weight: bold;
     align-self: flex-start;
@@ -209,7 +168,7 @@ body {
 
 /* Rodapé */
 .rodape {
-    background-color: #D2C1F0;
+    background-color: #5D3A00;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -224,7 +183,7 @@ body {
 }
 
 .rodape-contatos a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     margin-left: 10px;
 }
