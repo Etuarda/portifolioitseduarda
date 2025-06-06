@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Eduarda Silva - Portfólio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <header id="menu">
+        <h1 class="logo">Eduarda Silva</h1>
+        <nav class="navegacao">
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <img class="sobre-imagem" src="imagens/foto-eduarda.jpeg" alt="Foto de Eduarda sorrindo" />
+            <h2 class="sobre-nome">Eduarda Silva</h2>
+            <h3 class="sobre-titulo">Desenvolvedora Full Stack</h3>
+            <p class="sobre-descricao">
+                Sou <strong>desenvolvedora formada pela Cubos Academy</strong> com foco em back-end,
+                atualmente cursando Análise e Desenvolvimento de Sistemas na PUCRS.<br />
+                Apaixonada por tecnologia, lógica de programação e por transformar ideias em soluções reais.
+            </p>
+        </section>
+
+        <section id="formacao">
+            <h2 class="formacao-titulo">Formação</h2>
+            <div class="formacao-lista">
+                <h3>Análise e Desenvolvimento de Sistemas</h3>
+                <a href="https://www.pucrs.br" target="_blank">PUCRS</a>
+                <p>Bolsista pelo Prouni. Previsão de conclusão: 2027.</p>
+
+                <h3>Desenvolvimento Full Stack</h3>
+                <a href="https://cubos.academy" target="_blank">Cubos Academy</a>
+                <p>Formação intensiva em JavaScript, Node.js, React, SQL e APIs RESTful.</p>
+            </div>
+        </section>
+
+        <section id="projetos">
+            <h2 class="experiencia-titulo">Projetos em Destaque</h2>
+            <div class="experiencia-lista">
+                <h3>Planner de Estudos Gamificado</h3>
+                <a href="https://github.com/ettuarda/planner-gamificado" target="_blank">
+                    Repositório no GitHub
+                </a>
+                <p>Projeto fullstack voltado à organização de metas de estudo com sistema de recompensas.</p>
+
+                <h3>API para Consultório Médico</h3>
+                <a href="https://github.com/ettuarda/api-consultorio" target="_blank">
+                    Repositório no GitHub
+                </a>
+                <p>API RESTful com Node.js, Express e PostgreSQL.</p>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2 class="contato-titulo">Entre em contato comigo</h2>
+            <form action="https://formspree.io/f/mrbqrnvj" method="POST" class="contato-formulario">
+                <div class="contato-grupoinput">
+                    <div class="contato-input">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" />
+                    </div>
+
+                    <div class="contato-input">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" placeholder="Digite o seu e-mail" />
+                    </div>
+                </div>
+
+                <div class="contato-input">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" placeholder="Escreva a sua mensagem" rows="5"></textarea>
+                </div>
+
+                <button class="btn-enviar" type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape-contatos">
+            <p>
+                <img src="imagens/instagram-logo.png" alt="Instagram" />
+                <a href="https://instagram.com/ettuarda">@ettuarda</a>
+            </p>
+            <p>
+                <img src="imagens/github-logo.png" alt="Github" />
+                <a href="https://github.com/ettuarda">ettuarda</a>
+            </p>
+            <p>
+                <img src="imagens/linkedin-logo.png" alt="Linkedin" />
+                <a href="https://linkedin.com/in/itseduarda">itseduarda</a>
+            </p>
+        </div>
+
+        <div class="rodape-logo">
+            <a href="https://cubos.academy">
+                <img class="logo-minas" src="imagens/logo-instituicao.png" alt="Logo da Cubos Academy" />
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,238 @@
+/* Reset e base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #FDFCFB;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+#menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D2C1F0;
+    padding: 25px 40px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #4B4453;
+}
+
+.navegacao ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navegacao ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: opacity 0.3s;
+}
+
+.navegacao ul li a:hover {
+    opacity: 0.7;
+}
+
+/* Sobre */
+#sobre {
+    text-align: center;
+    background-color: #F7F1F1;
+    padding: 60px 20px;
+}
+
+.sobre-imagem {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sobre-nome {
+    color: #A87FF3;
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+.sobre-titulo {
+    color: #8685EF;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.sobre-descricao {
+    font-size: 16px;
+    margin-top: 15px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Formação */
+#formacao {
+    padding: 50px 20px;
+    background-color: #FFF7E9;
+}
+
+.formacao-titulo {
+    color: #F2B5D4;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.formacao-lista {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.formacao-lista h3 {
+    color: #8E8E8E;
+    margin-bottom: 5px;
+}
+
+.formacao-lista a {
+    color: #C792DF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.formacao-lista p {
+    margin-bottom: 20px;
+}
+
+/* Projetos */
+#projetos {
+    background-color: #F1FBFA;
+    padding: 50px 20px;
+}
+
+.experiencia-titulo {
+    color: #A3C8F7;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.experiencia-lista {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.experiencia-lista h3 {
+    color: #888;
+    margin-bottom: 5px;
+}
+
+.experiencia-lista a {
+    color: #7D93E0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.experiencia-lista p {
+    margin-bottom: 20px;
+}
+
+/* Contato */
+#contato {
+    padding: 50px 20px;
+    background-color: #FFF0F5;
+}
+
+.contato-titulo {
+    color: #C97FC5;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contato-formulario {
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contato-grupoinput {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.contato-input {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.contato-input label {
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.contato-input input,
+.contato-input textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.btn-enviar {
+    background-color: #A87FF3;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    align-self: flex-start;
+}
+
+.btn-enviar:hover {
+    opacity: 0.9;
+}
+
+/* Rodapé */
+.rodape {
+    background-color: #D2C1F0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px;
+    flex-wrap: wrap;
+}
+
+.rodape-contatos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rodape-contatos a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.rodape-contatos img {
+    vertical-align: middle;
+}
+
+.logo-minas {
+    height: 60px;
+}
