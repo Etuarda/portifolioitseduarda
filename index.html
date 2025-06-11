@@ -27,15 +27,28 @@
 
     <main>
         <section id="sobre">
-            <img class="sobre-imagem" src="imagens/foto-eduarda.jpeg" alt="Foto de Eduarda sorrindo" />
-            <h2 class="sobre-nome">Eduarda Santos</h2>
-            <h3 class="sobre-titulo">Desenvolvedora Full Stack</h3>
-            <p class="sobre-descricao">
-                Sou <strong>desenvolvedora formada pela Cubos Academy</strong> com foco em back-end,
-                atualmente cursando Análise e Desenvolvimento de Sistemas na PUCRS.<br />
-                Apaixonada por tecnologia, lógica de programação e por transformar ideias em soluções reais.
-            </p>
+            <div class="sobre-container">
+                <div class="sobre-imagem-wrapper">
+                    <img class="sobre-imagem" src="pictures/fotoperfilEduarda.jpg" alt="Foto de Eduarda" />
+                </div>
+                <div class="sobre-conteudo">
+                    <h2 class="sobre-nome"> Olá! sou a <p>Eduarda</p>
+                    </h2>
+                    <h3 class="sobre-titulo">Desenvolvedora Full Stack</h3>
+                    <p class="sobre-descricao">
+                        Sou <strong>desenvolvedora formada pela Cubos Academy</strong> com foco em back-end,
+                        atualmente cursando Análise e Desenvolvimento de Sistemas na PUCRS.<br />
+                        Apaixonada por tecnologia, lógica de programação e por transformar ideias em soluções reais.
+                    </p>
+                    <div class="cv-download">
+                        <a href="documentos\CurriculoEduarda.pdf" target="_blank" class="btn-enviar">Visualizar
+                            meu
+                            CV</a>
+                    </div>
+                </div>
+            </div>
         </section>
+
 
         <section id="formacao">
             <h2 class="formacao-titulo">Formação</h2>
@@ -68,58 +81,80 @@
         </section>
 
         <section id="skills">
-            <h2 class="skills-titulo">Hards Skills </h2>
-            <div class="skills-lista">
-                <ul>
-                    <li><strong>Linguagens:</strong> JavaScript, TypeScript, HTML, CSS, SQL</li>
-                    <li><strong>Frameworks e Bibliotecas:</strong> React, Node.js, Express</li>
-                    <li><strong>Banco de Dados:</strong> PostgreSQL</li>
-                    <li><strong>Ferramentas:</strong> Git, GitHub, VS Code, Figma, Postman</li>
-                    <li><strong>Cloud & DevOps:</strong> AWS (básico), Linux, redes (conceitos)</li>
-                </ul>
+            <h2 class="skills-titulo">Skills</h2>
+            <div class="skills-dupla">
+                <div class="skills-lista">
+                    <h3>Hard Skills</h3>
+                    <ul>
+                        <li><strong>Linguagens:</strong> JavaScript, TypeScript, HTML, CSS, SQL</li>
+                        <li><strong>Frameworks e Bibliotecas:</strong> React, Node.js, Express</li>
+                        <li><strong>Banco de Dados:</strong> PostgreSQL</li>
+                        <li><strong>Ferramentas:</strong> Git, GitHub, VS Code, Figma, Postman</li>
+                        <li><strong>Cloud & DevOps:</strong> AWS (básico), Linux, redes (conceitos)</li>
+                    </ul>
+                </div>
+                <div class="skills-lista">
+                    <h3>Soft Skills</h3>
+                    <ul>
+                        <li>Organização, planejamento e atenção a detalhes</li>
+                        <li>Comunicação colaborativa e escuta ativa</li>
+                        <li>Comprometimento com prazos e qualidade técnica</li>
+                        <li>Facilidade para aprender de forma autônoma e aplicar com consistência</li>
+                        <li>Responsabilidade no cumprimento de processos e padrões</li>
+                    </ul>
+                </div>
             </div>
+
         </section>
+
 
         <section id="projetos">
             <h2 class="experiencia-titulo">Projetos em Destaque</h2>
             <div class="experiencia-lista">
 
-                <h3>A Baleia Azul de Valença – Jogo RPG Narrativo</h3>
-                <p>Inspirado na lenda folclórica da minha cidade natal, este jogo foi desenvolvido durante a disciplina
-                    de Programação Orientada a Objetos na PUCRS como uma forma de aplicar, de maneira criativa, os
-                    conceitos técnicos de POO. A experiência propõe uma jornada textual onde o jogador explora
-                    diferentes ambientes históricos, interage com objetos simbólicos e resolve enigmas para impedir o
-                    despertar de uma criatura mítica.</p>
-                <p>A estrutura do código foi cuidadosamente pensada para representar classes como salas, objetos,
-                    ferramentas e uma engine que controla toda a narrativa. Cada elemento foi escrito de forma modular e
-                    extensível, permitindo que o jogo seja expandido com facilidade. Mais do que um projeto acadêmico,
-                    essa aplicação representa minha capacidade de unir lógica, identidade cultural e estrutura técnica
-                    em um único produto interativo.</p>
-                <p><a href="https://github.com/ettuarda/jogo-rpg-baleia-azul" target="_blank">Ver repositório no
-                        GitHub</a></p>
+                <div class="projeto-card">
+                    <img class="projeto-imagem" src="imagens/jogo-rpg.png" alt="Imagem do Jogo RPG Baleia Azul">
+                    <div class="projeto-conteudo">
+                        <h3>A Baleia – Jogo RPG Narrativo</h3>
+                        <p>Inspirado na lenda folclórica da minha cidade natal, este jogo foi desenvolvido durante a
+                            disciplina
+                            de Programação Orientada a Objetos na PUCRS como uma forma de aplicar, de maneira criativa,
+                            os
+                            conceitos técnicos de POO.</p>
+                        <p>Mais do que um projeto acadêmico, essa aplicação representa minha capacidade de unir lógica,
+                            identidade cultural e estrutura técnica em um único produto interativo.</p>
+                        <p><a href="https://github.com/Etuarda/RPG-POO" target="_blank">Ver repositório no
+                                GitHub</a></p>
+                    </div>
+                </div>
 
-                <h3>API RESTful – Sistema de PDV (Frente de Caixa)</h3>
-                <p>Criada como projeto final do curso Back-End da Cubos Academy, esta API simula o funcionamento
-                    essencial de um sistema de frente de caixa, utilizado no dia a dia por comércios de pequeno a médio
-                    porte. Ela oferece funcionalidades completas para o gerenciamento de usuários, produtos, categorias
-                    e pedidos, com foco na segurança das rotas e integridade dos dados.</p>
-                <p>Utilizando Node.js e PostgreSQL, a aplicação segue padrões RESTful, implementando autenticação com
-                    JWT, validação de entrada e respostas com status codes padronizados. Além da lógica técnica, este
-                    projeto me permitiu explorar práticas como organização em camadas, uso de scripts SQL para
-                    estruturação do banco de dados e construção de rotas robustas, tudo pensado para refletir um
-                    cenário real de desenvolvimento back-end.</p>
-                <p><a href="https://github.com/ettuarda/api-pdv-cubos" target="_blank">Ver repositório no GitHub</a></p>
+                <div class="projeto-card">
+                    <img class="projeto-imagem" src="imagens/api-pdv.png" alt="Imagem da API PDV">
+                    <div class="projeto-conteudo">
+                        <h3>API RESTful – Sistema de PDV (Frente de Caixa)</h3>
+                        <p>API criada em grupo, como projeto final do curso Back-End da Cubos Academy, simulando um
+                            sistema de
+                            frente de caixa.</p>
+                        <p>Utilizando Node.js e PostgreSQL, a aplicação segue padrões RESTful, com autenticação JWT e
+                            estrutura modularizada.</p>
+                        <p><a href="https://github.com/ettuarda/api-pdv-cubos" target="_blank">Ver repositório no
+                                GitHub</a></p>
+                    </div>
+                </div>
 
-                <h3>Portfólio Pessoal – HTML e CSS</h3>
-                <p>Este portfólio foi desenvolvido como parte do curso do Minas Programam, mas se tornou também um
-                    reflexo da minha jornada e da minha personalidade como desenvolvedora. Criado inteiramente com HTML
-                    e CSS, foi pensado para apresentar minha trajetória, meus projetos e minhas habilidades com clareza,
-                    leveza e identidade.</p>
-                <p>Com um layout limpo e seções bem definidas, o site traduz meu perfil: atenção aos detalhes,
-                    estruturação lógica e uma comunicação visual discreta, mas segura. Cada componente do portfólio foi
-                    pensado não apenas para exibir, mas para comunicar quem sou, como aprendo e para onde estou indo.
-                </p>
-                <p><a href="https://github.com/ettuarda/portfolio" target="_blank">Ver repositório no GitHub</a></p>
+                <div class="projeto-card">
+                    <img class="projeto-imagem" src="imagens/portfolio.png" alt="Imagem do Portfólio Pessoal">
+                    <div class="projeto-conteudo">
+                        <h3>Portfólio Pessoal – HTML e CSS</h3>
+                        <p>Portfólio desenvolvido como parte do curso do Minas Programam, representando minha
+                            trajetória, projetos e identidade como desenvolvedora.</p>
+                        <p>Layout limpo, estrutura lógica e foco na apresentação clara de habilidades e
+                            experiências.</p>
+                        <p><a href="https://github.com/Etuarda/portifolioitseduarda" target="_blank">Ver repositório no
+                                GitHub</a>
+                        </p>
+                    </div>
+                </div>
 
             </div>
         </section>
@@ -148,17 +183,21 @@
 
     <footer class="rodape">
         <div class="rodape-contatos">
-            <p><img src="imagens/instagram-logo.png" alt="Instagram" /> <a
-                    href="https://instagram.com/ettuarda">@ettuarda</a></p>
-            <p><img src="imagens/github-logo.png" alt="Github" /> <a href="https://github.com/ettuarda">ettuarda</a></p>
-            <p><img src="imagens/linkedin-logo.png" alt="Linkedin" /> <a
-                    href="https://linkedin.com/in/itseduarda">itseduarda</a></p>
-        </div>
-        <div class="rodape-logo">
-            <a href="https://cubos.academy"><img class="logo-minas" src="imagens/logo-instituicao.png"
-                    alt="Logo das instituições de ensino" /></a>
+            <a href="https://www.instagram.com/itseduardan" target="_blank">
+                <img src="pictures/instagram.png" alt="Instagram" />
+                <span>itseduardan</span>
+            </a>
+            <a href="https://github.com/etuarda" target="_blank">
+                <img src="pictures/github.png" alt="GitHub" />
+                <span>etuarda</span>
+            </a>
+            <a href="https://linkedin.com/in/itseduarda" target="_blank">
+                <img src="pictures/linkedin.png" alt="LinkedIn" />
+                <span>itseduarda</span>
+            </a>
         </div>
     </footer>
+
 </body>
 
 </html>
